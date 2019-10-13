@@ -31,5 +31,5 @@ Though there were many models that I used for cross-validation(like: RF, GBM, et
 But the numbers 40% and 60% were just by chance, no tunung was done to find out their best values.  
 After fitting, prediction was done on the cross_validation data, hence 'mse' metrics was used to check the performance of the model.     
 
-## FInal prediction and submission  
+## Final prediction and submission  
 The above ensemble model was used to fit the complete training data and hence used on the original test features to predict the target, which was passed into a dataframe(with relevant index column) for submission(in the form of a .csv file).
